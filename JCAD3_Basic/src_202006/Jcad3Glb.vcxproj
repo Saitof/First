@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07B457D0-6EAA-41C6-A546-D86F68F7E4D4}</ProjectGuid>
+    <RootNamespace>Jcad3Glb</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28127.55</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Debug/Jcad3Glb.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalOptions>/D "_GLB_" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;cfac32.lib;slca32.lib;gltf32.lib;ncet32.lib;ncfa32.lib;ncrv32.lib;ncsm32.lib;ncvl32.lib;LEAPS_ClientSDK_2005_MT_Debug.lib;msi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/Jcad3Glb.exe</OutputFile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Jcad3Glb.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>1000000</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers />
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug/Jcad3Glb.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;cfac32.lib;slca32.lib;gltf32.lib;ncet32.lib;ncfa32.lib;ncrv32.lib;ncsm32.lib;ncvl32.lib;LEAPS_ClientSDK_2005_MT_Debug.lib;msi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/Jcad3Glb.exe</OutputFile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Jcad3Glb.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>4096</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release/Jcad3Glb.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <AdditionalOptions>/D "_GLB_" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;cfac32.lib;slca32.lib;gltf32.lib;ncet32.lib;ncfa32.lib;ncrv32.lib;ncsm32.lib;ncvl32.lib;LEAPS_ClientSDK_2005_MT.lib;msi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/Jcad3Glb.exe</OutputFile>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/Jcad3Glb.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>1000000</StackReserveSize>
+      <OptimizeReferences />
+      <EnableCOMDATFolding />
+      <LinkTimeCodeGeneration />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/Jcad3Glb.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;cfac32.lib;slca32.lib;gltf32.lib;ncet32.lib;ncfa32.lib;ncrv32.lib;ncsm32.lib;ncvl32.lib;LEAPS_ClientSDK_2005_MT.lib;msi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/Jcad3Glb.exe</OutputFile>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/Jcad3Glb.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>4096</StackReserveSize>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="BackCommand.cpp" />
+    <ClCompile Include="ButtonDlg.cpp" />
+    <ClCompile Include="CalcDlg.cpp" />
+    <ClCompile Include="CCmdCurve.cpp" />
+    <ClCompile Include="CCmdDirect.cpp" />
+    <ClCompile Include="CCmdSurface.cpp" />
+    <ClCompile Include="CCmdThick.cpp" />
+    <ClCompile Include="CCommand.cpp" />
+    <ClCompile Include="CheckButton.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="ConvSCurve.cpp" />
+    <ClCompile Include="CreatCtrlPoint1.cpp" />
+    <ClCompile Include="CreatCtrlPoint2.cpp" />
+    <ClCompile Include="CreatCurvePoint.cpp" />
+    <ClCompile Include="CreatPovData.cpp" />
+    <ClCompile Include="DataAccess1.cpp" />
+    <ClCompile Include="DataAccess2.cpp" />
+    <ClCompile Include="DataAccess3.cpp" />
+    <ClCompile Include="DataBase.cpp" />
+    <ClCompile Include="DataConv.cpp" />
+    <ClCompile Include="DataFile1.cpp" />
+    <ClCompile Include="DataFile2.cpp" />
+    <ClCompile Include="DataFile3.cpp" />
+    <ClCompile Include="ECmdUnit.cpp" />
+    <ClCompile Include="ECommand.cpp" />
+    <ClCompile Include="EditCommand.cpp" />
+    <ClCompile Include="EditCtrlPoint1.cpp" />
+    <ClCompile Include="EditCtrlPoint2.cpp" />
+    <ClCompile Include="EditCtrlTracker.cpp" />
+    <ClCompile Include="EditJewelry.cpp" />
+    <ClCompile Include="EditObject.cpp" />
+    <ClCompile Include="EditSurface.cpp" />
+    <ClCompile Include="FaceEdit.cpp" />
+    <ClCompile Include="FileDlg.cpp" />
+    <ClCompile Include="InfoDlg.cpp" />
+    <ClCompile Include="InputBtnDlg.cpp" />
+    <ClCompile Include="InputBtnDlg2.cpp" />
+    <ClCompile Include="InputDlg.cpp" />
+    <ClCompile Include="InputsDlg.cpp" />
+    <ClCompile Include="Jcad3Glb.cpp" />
+    <ClCompile Include="Jcad3GlbDoc.cpp" />
+    <ClCompile Include="Jcad3GlbView.cpp" />
+    <ClCompile Include="LCheck.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NumDispDlg.cpp" />
+    <ClCompile Include="NumFunc.cpp" />
+    <ClCompile Include="OifTreeCtrl.cpp" />
+    <ClCompile Include="OifTreeDlg.cpp" />
+    <ClCompile Include="Primitive.cpp" />
+    <ClCompile Include="PushDlg.cpp" />
+    <ClCompile Include="RCmdBoolean.cpp" />
+    <ClCompile Include="RCmdObject.cpp" />
+    <ClCompile Include="RCmdPlaneCut.cpp" />
+    <ClCompile Include="RendDlg.cpp" />
+    <ClCompile Include="Rendering.cpp" />
+    <ClCompile Include="Select.cpp" />
+    <ClCompile Include="SetPovEnv.cpp" />
+    <ClCompile Include="SetRayEnv.cpp" />
+    <ClCompile Include="SetRndEnv.cpp" />
+    <ClCompile Include="SetSysEnv.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StatusCtrl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Symmetry.cpp" />
+    <ClCompile Include="Tracker.cpp" />
+    <ClCompile Include="TrueTypeFont.cpp" />
+    <ClCompile Include="TrueTypeGeometry.cpp" />
+    <ClCompile Include="TrueTypeInst.cpp" />
+    <ClCompile Include="ViewCurve.cpp" />
+    <ClCompile Include="ViewDialog.cpp" />
+    <ClCompile Include="ViewEdit1.cpp" />
+    <ClCompile Include="ViewEdit2.cpp" />
+    <ClCompile Include="ViewEditSurf1.cpp" />
+    <ClCompile Include="ViewEditSurf2.cpp" />
+    <ClCompile Include="ViewGem.cpp" />
+    <ClCompile Include="ViewJewelry.cpp" />
+    <ClCompile Include="ViewMeasure.cpp" />
+    <ClCompile Include="ViewMenu.cpp" />
+    <ClCompile Include="ViewNCDisp.cpp" />
+    <ClCompile Include="ViewRend.cpp" />
+    <ClCompile Include="ViewScrCtrl.cpp" />
+    <ClCompile Include="ViewSelect.cpp" />
+    <ClCompile Include="ViewSetup.cpp" />
+    <ClCompile Include="ViewSurface.cpp" />
+    <ClCompile Include="ViewTemplate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="Attribute.h" />
+    <ClInclude Include="BackCommand.h" />
+    <ClInclude Include="BooleanType.h" />
+    <ClInclude Include="ButtonDlg.h" />
+    <ClInclude Include="CalcDlg.h" />
+    <ClInclude Include="CCommand.h" />
+    <ClInclude Include="CFAC32_Api.h" />
+    <ClInclude Include="CheckButton.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="ConvSCurve.h" />
+    <ClInclude Include="CreatCtrlPoint1.h" />
+    <ClInclude Include="CreatCtrlPoint2.h" />
+    <ClInclude Include="CreatCurvePoint.h" />
+    <ClInclude Include="CreatPovData.h" />
+    <ClInclude Include="CutType.h" />
+    <ClInclude Include="DataAccess1.h" />
+    <ClInclude Include="DataAccess2.h" />
+    <ClInclude Include="DataAccess3.h" />
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="DataConv.h" />
+    <ClInclude Include="DataFile1.h" />
+    <ClInclude Include="DataFile2.h" />
+    <ClInclude Include="DataFile3.h" />
+    <ClInclude Include="DataType.h" />
+    <ClInclude Include="ECmdUnit.h" />
+    <ClInclude Include="ECommand.h" />
+    <ClInclude Include="EditCtrlPoint1.h" />
+    <ClInclude Include="EditCtrlPoint2.h" />
+    <ClInclude Include="EditCtrlTracker.h" />
+    <ClInclude Include="EditJewelry.h" />
+    <ClInclude Include="EditObject.h" />
+    <ClInclude Include="EditSurface.h" />
+    <ClInclude Include="FaceEdit.h" />
+    <ClInclude Include="FaceEditType.h" />
+    <ClInclude Include="FileDlg.h" />
+    <ClInclude Include="GLTF32_Api.h" />
+    <ClInclude Include="Imagekit7.h" />
+    <ClInclude Include="InfoDlg.h" />
+    <ClInclude Include="InputBtnDlg.h" />
+    <ClInclude Include="InputBtnDlg2.h" />
+    <ClInclude Include="InputDlg.h" />
+    <ClInclude Include="InputsDlg.h" />
+    <ClInclude Include="Jcad3Glb.h" />
+    <ClInclude Include="Jcad3GlbDoc.h" />
+    <ClInclude Include="Jcad3GlbView.h" />
+    <ClInclude Include="LCheck.h" />
+    <ClInclude Include="LEAPS.h" />
+    <ClInclude Include="LEAPS_ErrorNumber.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="msi.h" />
+    <ClInclude Include="NCET32_Api.h" />
+    <ClInclude Include="NCFA32_Api.h" />
+    <ClInclude Include="NCRV32_Api.h" />
+    <ClInclude Include="NCSM32_Api.h" />
+    <ClInclude Include="NCVL32_Api.h" />
+    <ClInclude Include="NumDispDlg.h" />
+    <ClInclude Include="NumFunc.h" />
+    <ClInclude Include="OifTreeCtrl.h" />
+    <ClInclude Include="OifTreeDlg.h" />
+    <ClInclude Include="Primitive.h" />
+    <ClInclude Include="PushDlg.h" />
+    <ClInclude Include="RCommand.h" />
+    <ClInclude Include="RendDlg.h" />
+    <ClInclude Include="Rendering.h" />
+    <ClInclude Include="RendType.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Select.h" />
+    <ClInclude Include="SetPovEnv.h" />
+    <ClInclude Include="SetRayEnv.h" />
+    <ClInclude Include="SetRndEnv.h" />
+    <ClInclude Include="SetSysEnv.h" />
+    <ClInclude Include="SLCA32_Api.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StatusCtrl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Symmetry.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Tracker.h" />
+    <ClInclude Include="TrueTypeData.h" />
+    <ClInclude Include="TrueTypeFont.h" />
+    <ClInclude Include="TrueTypeGeometry.h" />
+    <ClInclude Include="TrueTypeInst.h" />
+    <ClInclude Include="TrueTypeInstData.h" />
+    <ClInclude Include="TrueTypeVector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\BmTree1.bmp" />
+    <Image Include="res\BmTree2.bmp" />
+    <Image Include="res\BmTree3.bmp" />
+    <Image Include="res\BmTree4.bmp" />
+    <Image Include="res\boolmd1.bmp" />
+    <Image Include="res\boolmd2.bmp" />
+    <Image Include="res\boolmd3.bmp" />
+    <Image Include="res\CheckCD.bmp" />
+    <Image Include="res\CheckCF.bmp" />
+    <Image Include="res\CheckCU.bmp" />
+    <Image Include="res\CheckD.bmp" />
+    <Image Include="res\CheckF.bmp" />
+    <Image Include="res\CheckU.bmp" />
+    <Image Include="res\Create.bmp" />
+    <Image Include="res\Create2.bmp" />
+    <Image Include="res\Direction1.bmp" />
+    <Image Include="res\Direction2.bmp" />
+    <Image Include="res\Direction3.bmp" />
+    <Image Include="res\DownD.bmp" />
+    <Image Include="res\DownF.bmp" />
+    <Image Include="res\DownU.bmp" />
+    <Image Include="res\Edit.bmp" />
+    <Image Include="res\Edit2.bmp" />
+    <Image Include="res\EWD.bmp" />
+    <Image Include="res\EWDF.bmp" />
+    <Image Include="res\EWF.bmp" />
+    <Image Include="res\EWSND.bmp" />
+    <Image Include="res\EWSNDF.bmp" />
+    <Image Include="res\EWSNF.bmp" />
+    <Image Include="res\EWSNU.bmp" />
+    <Image Include="res\EWU.bmp" />
+    <Image Include="res\Group.bmp" />
+    <Image Include="res\Jcad3Glb.ico" />
+    <Image Include="res\Jcad3GlbDoc.ico" />
+    <Image Include="res\jcad_edi.bmp" />
+    <Image Include="res\jcad_edi2.bmp" />
+    <Image Include="res\Jewelry.bmp" />
+    <Image Include="res\Jewelry2.bmp" />
+    <Image Include="res\LeftD.bmp" />
+    <Image Include="res\LeftF.bmp" />
+    <Image Include="res\LeftU.bmp" />
+    <Image Include="res\Measure.bmp" />
+    <Image Include="res\Measure2.bmp" />
+    <Image Include="res\MinusD.bmp" />
+    <Image Include="res\MinusF.bmp" />
+    <Image Include="res\MinusU.bmp" />
+    <Image Include="res\Oval.bmp" />
+    <Image Include="res\PlusD.bmp" />
+    <Image Include="res\PlusF.bmp" />
+    <Image Include="res\PlusU.bmp" />
+    <Image Include="res\Render.bmp" />
+    <Image Include="res\Render2.bmp" />
+    <Image Include="res\RightD.bmp" />
+    <Image Include="res\RightF.bmp" />
+    <Image Include="res\RightU.bmp" />
+    <Image Include="res\Round.bmp" />
+    <Image Include="res\ScrCtrl.bmp" />
+    <Image Include="res\ScrCtrl2.bmp" />
+    <Image Include="res\SND.bmp" />
+    <Image Include="res\SNDF.bmp" />
+    <Image Include="res\SNF.bmp" />
+    <Image Include="res\SNU.bmp" />
+    <Image Include="res\Splash.bmp" />
+    <Image Include="res\Square.bmp" />
+    <Image Include="res\Surf.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\UpD.bmp" />
+    <Image Include="res\UpF.bmp" />
+    <Image Include="res\UpU.bmp" />
+    <Image Include="res\View.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur" />
+    <None Include="res\cursor2.cur" />
+    <None Include="res\cursor3.cur" />
+    <None Include="res\cursor4.cur" />
+    <None Include="res\cursor5.cur" />
+    <None Include="res\Jcad3Glb.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Jcad3Glb.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Jcad3Glb.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

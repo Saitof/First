@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Attribute.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BackCommand.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CCmdCurve.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CCmdDirect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CCmdSurface.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CCmdThick.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommand.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckButton.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvSCurve.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatCtrlPoint1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatCtrlPoint2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatCurvePoint.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatPovData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccess1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccess2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccess3.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataConv.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFile1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFile2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFile3.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTemplate.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewCurve.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDialog.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEdit1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEdit2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEditSurf1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEditSurf2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewGem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJewelry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewMeasure.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewMenu.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewNCDisp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRend.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewScrCtrl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSelect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSetup.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSurface.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ECmdUnit.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ECommand.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCommand.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCtrlPoint1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCtrlPoint2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCtrlTracker.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditJewelry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSurface.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceEdit.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBtnDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBtnDlg2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputsDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Jcad3Glb.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Jcad3GlbDoc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Jcad3GlbView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LCheck.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="NumDispDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="NumFunc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OifTreeCtrl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OifTreeDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PushDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RCmdBoolean.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RCmdObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RCmdPlaneCut.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RendDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPovEnv.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRayEnv.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRndEnv.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SetSysEnv.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusCtrl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Symmetry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracker.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueTypeFont.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueTypeGeometry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueTypeInst.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Attribute.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BackCommand.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanType.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommand.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CFAC32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckButton.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvSCurve.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatCtrlPoint1.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatCtrlPoint2.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatCurvePoint.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatPovData.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CutType.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccess1.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccess2.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccess3.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataConv.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFile1.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFile2.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFile3.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DataType.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ECmdUnit.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ECommand.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCtrlPoint1.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCtrlPoint2.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCtrlTracker.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditJewelry.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditObject.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EditSurface.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceEdit.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceEditType.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTF32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Imagekit7.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBtnDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBtnDlg2.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InputsDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Jcad3Glb.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Jcad3GlbDoc.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Jcad3GlbView.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LCheck.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LEAPS.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LEAPS_ErrorNumber.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NCET32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NCFA32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="msi.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NCRV32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NCSM32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NCVL32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NumDispDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NumFunc.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OifTreeCtrl.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OifTreeDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PushDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RCommand.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RendDlg.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RendType.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPovEnv.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRayEnv.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRndEnv.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SetSysEnv.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SLCA32_Api.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Symmetry.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracker.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueTypeData.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueTypeFont.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueTypeGeometry.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueTypeInst.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueTypeInstData.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueTypeVector.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusCtrl.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportStl.h">
+      <Filter>ヘッダファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\BmTree1.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\BmTree2.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\BmTree3.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\BmTree4.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\boolmd1.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\boolmd2.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\boolmd3.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\CheckCD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\CheckU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\CheckF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\CheckD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\CheckCU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\CheckCF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Create.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Direction1.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Direction2.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Direction3.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\DownD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\DownF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\DownU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Edit.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWDF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWSND.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWSNDF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWSNF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWSNU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\EWU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Group.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\jcad_edi.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Jcad3Glb.ico">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Jcad3GlbDoc.ico">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Jewelry.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\LeftD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\LeftF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\LeftU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Measure.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\MinusD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\MinusF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\MinusU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Oval.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\PlusD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\PlusF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\PlusU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Render.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\RightD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\RightF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\RightU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Round.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\ScrCtrl.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\SND.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\SNDF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\SNF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\SNU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Splash.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Square.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Surf.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\UpD.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\UpF.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\UpU.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\View.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Edit_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Surf_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Create_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\jcad_edi_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Jewelry_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\ScrCtrl_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Render_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+    <Image Include="res\Measure_b.bmp">
+      <Filter>リソースファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur">
+      <Filter>リソースファイル</Filter>
+    </None>
+    <None Include="res\cursor2.cur">
+      <Filter>リソースファイル</Filter>
+    </None>
+    <None Include="res\cursor3.cur">
+      <Filter>リソースファイル</Filter>
+    </None>
+    <None Include="res\cursor4.cur">
+      <Filter>リソースファイル</Filter>
+    </None>
+    <None Include="res\cursor5.cur">
+      <Filter>リソースファイル</Filter>
+    </None>
+    <None Include="res\Jcad3Glb.rc2">
+      <Filter>リソースファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{a92082ef-e610-46b3-addd-123e2cb1dff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル">
+      <UniqueIdentifier>{25a8b137-f775-4e65-90a7-557c19766756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソースファイル">
+      <UniqueIdentifier>{c9ca99fd-b427-4789-a246-97bb646a7bee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Jcad3Glb_Basic.rc">
+      <Filter>リソースファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

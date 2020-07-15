@@ -1,0 +1,107 @@
+BackColor         0   0   0
+ObjColor        255 255 255
+GroupColor1     255 255 255
+GroupColor2     255 255 255
+GroupColor3     255 255 255
+GroupColor4     255 255 255
+GroupColor5     255 255 255
+GroupColor6     255 255 255
+GroupColor7     255 255 255
+GroupColor8     255 255 255
+GroupColor9     255 255 255
+GroupColor10    255 255 255
+GroupColor11    255 255 255
+GroupColor12    255 255 255
+GroupColor13    255 255 255
+GroupColor14    255 255 255
+GroupColor15    255 255 255
+GroupColor16    255 255 255
+SelectColor     255   0   0
+ChooseColor     255 255   0
+BoolColor       100 100 100
+GridColor         0 128 255
+GridBPColor     255 255   0
+TemplateColor     0 128 255
+BaseColor       255 255   0
+BoxColor          0 255   0
+CircleColor       0 255   0
+LineColor         0 255   0
+MeasureColor    255 255   0
+SelLineColor    255   0 255
+XGuideColor     255   0 255
+YGuideColor     255 255   0
+ZGuideColor       0 255   0
+NCDispColor1      0 255   0
+NCDispColor2    255   0 255
+TrackerColor0     0 128 255
+TrackerColor1     0 255 255
+TrackerColor2     0 128   0
+TrackerColor3     0 255   0
+TrackerColor4   255 255   0
+TrackerColor5   255   0 255
+BorderColor     192 192 192
+BorderHColor    255 255 255
+BorderSColor    128 128 128
+
+//-------------------------------------------------------------------//
+   <<<説明>>>  2009.01.28  by M.Fukushima
+   上記はJCAD3で使用している色をRGBで指定しています。[[[ 旧版 ]]]
+
+   ﾌｫｰﾏｯﾄは以下で、合計44色を設定しています。
+       ｶﾗｰのﾀｲﾄﾙ  R指数  G指数  B指数
+
+   <<<注意>>>
+   ① R,G,Bの指数は、0～255で指定します。
+      色は、ﾍﾟｲﾝﾄ等で確認してください。
+   ② 上記のﾌｫｰﾏｯﾄで28色分、必ず読み込みます。
+      1行：4ﾃﾞｰﾀで 28色    合計 112ﾃﾞｰﾀ
+   ③ ｽﾍﾟｰｽ(' ')がﾃﾞｰﾀの区切りですので、ｽﾍﾟｰｽには注意してください。
+   ④ 上記ﾌｫｰﾏｯﾄ以外のﾃﾞｰﾀがあった場合はｴﾗｰとなります。
+   ⑤ このﾌｧｲﾙの数値を変更すると、[初期値]が変わります。
+
+   <<<色の説明>>>
+    BackColor     ： 背景色
+    ObjColor      ： 立体表示色(ｸﾞﾙｰﾌﾟ登録なし)
+    GroupColor1   ： ｸﾞﾙｰﾌﾟ1立体表示色[旧版は立体表示色と同じ]
+    GroupColor2   ： ｸﾞﾙｰﾌﾟ2立体表示色[全ｸﾞﾙｰﾌﾟ同色]
+    GroupColor3   ： ｸﾞﾙｰﾌﾟ3立体表示色
+    GroupColor4   ： ｸﾞﾙｰﾌﾟ4立体表示色
+    GroupColor5   ： ｸﾞﾙｰﾌﾟ5立体表示色
+    GroupColor6   ： ｸﾞﾙｰﾌﾟ6立体表示色
+    GroupColor7   ： ｸﾞﾙｰﾌﾟ7立体表示色
+    GroupColor8   ： ｸﾞﾙｰﾌﾟ8立体表示色
+    GroupColor9   ： ｸﾞﾙｰﾌﾟ9立体表示色
+    GroupColor10  ： ｸﾞﾙｰﾌﾟ10立体表示色
+    GroupColor11  ： ｸﾞﾙｰﾌﾟ11立体表示色
+    GroupColor12  ： ｸﾞﾙｰﾌﾟ12立体表示色
+    GroupColor13  ： ｸﾞﾙｰﾌﾟ13立体表示色
+    GroupColor14  ： ｸﾞﾙｰﾌﾟ14立体表示色
+    GroupColor15  ： ｸﾞﾙｰﾌﾟ15立体表示色
+    GroupColor16  ： ｸﾞﾙｰﾌﾟ16立体表示色
+    SelectColor   ： 選択立体表示色
+    ChooseColor   ： 選択解除&制御点立体表示色
+    BoolColor     ： 図形演算立体表示色
+    GridColor     ： ｸﾞﾘｯﾄﾞ表示色
+    GridBPColor   ： ｸﾞﾘｯﾄﾞ基準点表示色
+    TemplateColor ： ﾃﾝﾌﾟﾚｰﾄ表示色
+    BaseColor     ： 基準点/線表示色
+    BoxColor      ： ﾎﾞｯｸｽ表示色
+    CircleColor   ： ｻｰｸﾙ表示色
+    LineColor     ： ﾗｲﾝ表示色
+    MeasureColor  ： 定規/分度器表示色
+    SelLineColor  ： 選択制御点列表示色
+    XGuideColor   ： Xｶﾞｲﾄﾞ表示色
+    YGuideColor   ： Yｶﾞｲﾄﾞ表示色
+    ZGuideColor   ： Zｶﾞｲﾄﾞ表示色
+    NCDispColor1  ： NCﾃﾞｰﾀ表示色1
+    NCDispColor2  ： NCﾃﾞｰﾀ表示色2
+    TrackerColor0 ： ﾄﾗｯｶｰ表示色0
+    TrackerColor1 ： ﾄﾗｯｶｰ表示色1
+    TrackerColor2 ： ﾄﾗｯｶｰ表示色2
+    TrackerColor3 ： ﾄﾗｯｶｰ表示色3
+    TrackerColor4 ： ﾄﾗｯｶｰ表示色4
+    TrackerColor5 ： ﾄﾗｯｶｰ表示色5
+    BorderColor   ： ﾌﾚｰﾑ色(中心境界線)
+    BorderHColor  ： ﾌﾚｰﾑ色(外枠境界線[日向部])
+    BorderSColor  ： ﾌﾚｰﾑ色(外枠境界線[黒影部])
+//-------------------------------------------------------------------//
